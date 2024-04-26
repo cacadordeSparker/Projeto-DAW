@@ -67,3 +67,7 @@ nav {
     width: 20px; /* Largura do botão de rádio */
     height: 20px; /* Altura do botão de rádio */
 }
+
+.infoPag{
+    font-size: 20px;
+}

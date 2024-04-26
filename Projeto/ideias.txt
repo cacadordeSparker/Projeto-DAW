@@ -1,0 +1,4 @@
+- tabela: pagina de planos
+- ancora: pagina sobre nós
+- lista: pagina sobre nos, lista com beneficios da academia
+- details: info pagamento

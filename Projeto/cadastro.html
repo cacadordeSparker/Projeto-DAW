@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - MixFit</title>
+    <!-- Adicione o link para importar a fonte Montserrat abaixo -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <nav>
+		<a href="index.html" class="link-com-borda">Home</a>
+		<a href="" class="link-com-borda">Cadastro</a>
+		<a href="" class="link-com-borda">Sobre Nós</a>
+	</nav>
+	<br>
+    <div class="titulo">
+        Cadastro de Aluno
+    </div>
+    <br><br>
+    
+    <form>
+        Nome:<br>
+        <input type="text" size="50" maxlength="60" minlength="3" 
+        id="nome" name="nome" required placeholder="Nome do Aluno">
+        <br><br>
+        
+        CPF:<br>
+        <input type="text" size="50" maxlength="11" minlength="11" 
+        id="cpf" name="cpf" required 
+        placeholder="CPF do Aluno sem pontos (.) e traços (-)">
+        <br><br>
+        
+        Sexo:<br>
+		F <input class="radio" type="radio" name="sexo" id="sexo" value="F">
+		M <input class="radio" type="radio" name="sexo" id="sexo" value="M">
+        <br><br>
+
+        <details>
+            <summary>Informações de Pagamento</summary>
+        </details>
+
+        
+        <br>
+        <div>
+            <button class="botao-margem-direita" type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </div>
+        
+    
+    </form>
+
+</body>
+</html>
